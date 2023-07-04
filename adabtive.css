@@ -1,0 +1,133 @@
+@media (max-width:481px) {
+    .container {
+        width: 410px;
+        margin: 0 auto;
+    }
+
+    body{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header_info button {
+        display: none;
+    }
+
+    .header_info svg {
+        display: block !important;
+    }
+
+    /* header */
+
+    .part_one h3 {
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .part_one p {
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .part_one button {
+        margin-left: 55px;
+    }
+
+    /* part1  */
+
+    .part_two h4 {
+        font-size: 20px;
+    }
+
+    .part_two p {
+        font-size: 16px;
+    }
+
+    .part2_img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img_bg p {
+        display: none;
+    }
+
+    .img_bg {
+        max-width: 167px;
+        height: 231px;
+    }
+
+    .bgg3 {
+        margin: 10px 0;
+    }
+/* part_two  */
+    .part_three{
+        display: none;
+    }
+    /* part3  */
+
+    .part_four_div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .free {
+        margin-bottom: 30px;
+        margin-left: 70px;
+    }
+
+    .part_four_div2 {
+        flex-direction: column;
+        margin: 0 !important;
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+
+    .phone_info {
+        width: 80%;
+
+
+
+    }
+
+    .phone {
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    .phone_info h4 {
+        font-size: 16px !important;
+        margin: 0 !important;
+        width: 280px !important;
+    }
+
+    /* part4  */
+
+    .part_five1 {
+        flex-direction: column;
+
+    }
+
+    .part_five1:nth-child(2){
+        flex-direction: column-reverse;
+    }
+
+    .part_five_img1 img {
+        width: 382px !important;
+        height: 213.995px !important;
+    }
+    /* part5  */
+
+    .container1{
+        flex-direction: column;
+    }
+}
